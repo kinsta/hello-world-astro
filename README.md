@@ -1,4 +1,4 @@
-![Frame 78 (5)](https://user-images.githubusercontent.com/2342458/194169079-aa12e92d-87fd-4da4-9afd-93de44874dae.png)
+![Photo by Jr Korpa on Unsplash](https://user-images.githubusercontent.com/2342458/194169079-aa12e92d-87fd-4da4-9afd-93de44874dae.png)
 # Kinsta - Hello World - Static Site With Astro 🚀
 
 An example of how to deploy a static site built with Astro on Kinsta App Hosting services.
