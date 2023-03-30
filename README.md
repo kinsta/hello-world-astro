@@ -29,4 +29,4 @@ When deploying an application, Kinsta automatically creates a web process with `
 Whenever a deployment is initiated (through creating an application or re-deploying due to an incoming commit) the `npm build` command is run, followed by the `npm start` command.
 
 ## What is Astro
-Astro is a static site builder focusing on content-rich websites to deliver faster load times with less JavaScript. More information is available on astro.build. More information is available on the [astro.build](https://astro.build/) website.
+Astro is a static site framework focusing on content-rich websites to deliver faster load times with less JavaScript. More information is available on the [astro.build](https://astro.build/) website.
