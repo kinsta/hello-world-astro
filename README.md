@@ -12,7 +12,7 @@ Kinsta is a developer-centric cloud host / PaaS. We’re striving to make it eas
 
 ## Setup
 <details>
-<summary><strong>Static Site Hosting</strong></summary>
+<summary><strong>Static Site Hosting</strong> [click to expand]</summary>
 
 ### Dependency Management
 
@@ -34,7 +34,7 @@ Whenever a deployment is initiated (through creating an application or re-deploy
 </details>
 
 <details>
-<summary><strong>Application Hosting</strong></summary>
+<summary><strong>Application Hosting</strong> [click to expand]</summary>
 
 ### Dependency Management
 
