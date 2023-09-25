@@ -10,11 +10,35 @@ Kinsta is a developer-centric cloud host / PaaS. We’re striving to make it eas
 - [Application Hosting](https://kinsta.com/application-hosting)
 - [Database Hosting](https://kinsta.com/database-hosting)
 
-## Dependency Management
+## Setup
+<details>
+<summary><strong>Static Site Hosting</strong></summary>
 
-Kinsta automatically installs dependencies defined in your `package.json` file, during the deployment process.
+### Dependency Management
 
-## Web Server Setup
+Kinsta automatically installs dependencies defined in your `package.json` file during the deployment process.
+
+### Setting the Build Command, Node version, and Publish directory
+
+After connecting the repository, **Static Site Hosting** will automatically try to populate all the fields with the correct values.
+|  |  |
+|---|---|
+| Build command | `npm run build` |
+| Node version  |  16.20  |
+| Publish directory | `dist`  |
+
+
+### Deployment Lifecycle
+
+Whenever a deployment is initiated (through creating an application or re-deploying due to an incoming commit), the build command is run, followed by the deployment of the Publish Directory content.
+</details>
+
+<details>
+<summary><strong>Application Hosting</strong></summary>
+
+### Dependency Management
+
+Kinsta automatically installs dependencies defined in your `package.json` file during the deployment process.
 
 ### Port
 
@@ -24,9 +48,10 @@ Kinsta automatically sets the `PORT` environment variable. You should **not** de
 
 When deploying an application, Kinsta automatically creates a web process with `npm start` as the entry point. Make sure to use this command to run your server.
 
-## Deployment Lifecycle
+### Deployment Lifecycle
 
-Whenever a deployment is initiated (through creating an application or re-deploying due to an incoming commit) the `npm build` command is run, followed by the `npm start` command.
+Whenever a deployment is initiated (through creating an application or re-deploying due to an incoming commit), the `npm build` command is run, followed by the `npm start` command.
+</details>
 
 ## What is Astro
 Astro is a static site framework focusing on content-rich websites to deliver faster load times with less JavaScript. More information is available on the [astro.build](https://astro.build/) website.
