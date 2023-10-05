@@ -1,7 +1,7 @@
 ![Astro](https://user-images.githubusercontent.com/2342458/230581871-dc3c1c5f-91a2-484c-8b5c-5065a6b99ff0.png)
 # Kinsta - Hello World - Static Site With Astro 🚀
 
-An example of how to deploy a static site built with Astro on Kinsta App Hosting services.
+An example of how to deploy a static site built with Astro on Kinsta Hosting.
 
 ---
 Kinsta is a developer-centric cloud host / PaaS. We’re striving to make it easier for you to share your web projects with your users. You can focus on coding and building, and we'll take care of deployments with fast, scalable hosting. 
@@ -32,7 +32,6 @@ After connecting the repository, **Static Site Hosting** will automatically try 
 | Build command | `npm run build` |
 | Node version  |  16.20  |
 | Publish directory | `dist`  |
-
 
 ### Deployment Lifecycle
 
