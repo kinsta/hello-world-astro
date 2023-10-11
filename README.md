@@ -15,6 +15,7 @@ If you only have a Static Site Hosting account, we have detailed [Static Site Ho
 - [Start your free trial](https://kinsta.com/signup/?product_type=app-db)
 - [Application Hosting](https://kinsta.com/application-hosting)
 - [Database Hosting](https://kinsta.com/database-hosting)
+- [Static Site Hosting](https://kinsta.com/static-site-hosting)
 
 ## Setup
 <details>
