@@ -28,7 +28,7 @@ Kinsta automatically installs dependencies defined in your `package.json` file d
 ### Setting the Build Command, Node version, and Publish directory
 
 After connecting the repository, **Static Site Hosting** will automatically try to populate all the fields with the correct values.
-|  |  |
+| Configuration option |Value     |
 |---|---|
 | Build command | `npm run build` |
 | Node version  |  18.16.0  |
